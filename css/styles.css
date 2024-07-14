@@ -1,13 +1,20 @@
 /* ini css */
+body{
+    font-family: sans-serif;
+}
 main{
     display: flex;
     justify-content: space-around;
     margin: 10px;
+    font-family: sans-serif;
+    text-align: justify;
 }
 .main-content{
     border: 1px solid;
+    border-radius: 25px;
     flex: 1;
     padding: 12px;
+    background-color: #E0FFFF;
 }
 .input-title{
     font-size: 14px;
@@ -21,10 +28,34 @@ main{
     padding: 10px;
     border: 1px solid #808080;
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     padding-left: 30px;
     background: url(https://icons.veryicon.com/png/o/internet--web/collection-and-payment/pencil-43.png) no-repeat left;
     background-size: 20px;
     background-position: 5px;
+    font-size: 15px;
 }
-
+.tombol-hitung{
+    height: 40px;
+    width: 90px;
+    background-color: #45AAF2;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.tombol-reset{
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.tombol-hitung:hover, .tombol-reset:hover{
+    border-radius: 25px;
+    transition: 1s;
+}
+ol{
+    padding-left: 15px;
+    font-size: 14px;
+}
