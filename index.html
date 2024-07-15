@@ -34,15 +34,15 @@
                 <input type="radio" id="section-woman"><label for="section-woman">Perempuan</label>
 
                 <p class="input-title">Berat Badan (Kg)</p>
-                <input type="text" class="input-isi" placeholder="Masukan berat badan anda">
+                <input type="text" class="input-isi" placeholder="Masukan berat badan anda" id="beratbadan">
 
                 <p class="input-title">Usia (Tahun)</p>
-                <input type="text" class="input-isi" placeholder="Masukan usia anda">
+                <input type="text" class="input-isi" placeholder="Masukan usia anda" id="usia">
 
                 <p class="input-title">Tinggi Badan (Cm)</p>
-                <input type="text" class="input-isi" placeholder="Masukan tinggi badan anda">
+                <input type="text" class="input-isi" placeholder="Masukan tinggi badan anda" id="tinggi">
                 <p>
-                <button type="submit" class="tombol-hitung">Hitung BMI</button>
+                <button type="submit" class="tombol-hitung" onclick="bmi">Hitung BMI</button>
                 <button class="tombol-reset">Reset</button>
                 </p>
             </form>
@@ -72,7 +72,24 @@
 
         <!-- right section -->
         <section class="main-content">
-            
+
+            <header class="input-title">
+                <h1>Result</h1>
+            </header>
+            <!-- isi perhitungan -->
+            <section>
+                <h2 style="text-align: center;" name="khitung">Berat badan</h3>
+                <p class="isi-hasil" name="perhitungan">25</p>
+                <p class="isi-hasil" style="font-size: 20px;" name="konklusi">Berat badan</p>
+               <center>
+                <button class="tombol-hitung" style="width: 150px;">Download Hasil Bmi</button>
+                </center>
+            </section>
+            <section>
+                <header>
+                   
+                </header>
+            </section>
         </section>
     </main>
 

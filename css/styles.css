@@ -4,7 +4,7 @@ body{
 }
 main{
     display: flex;
-    justify-content: space-around;
+
     margin: 10px;
     font-family: sans-serif;
     text-align: justify;
@@ -16,14 +16,17 @@ main{
     padding: 12px;
     background-color: #E0FFFF;
 }
+/* judul input */
 .input-title{
     font-size: 14px;
     font-weight: bold;
 }
+/* header halaman */
 .title{
     font-weight: lighter;
     text-align: center;
 }
+/* isi textbox */
 .input-isi{
     padding: 10px;
     border: 1px solid #808080;
@@ -35,6 +38,7 @@ main{
     background-position: 5px;
     font-size: 15px;
 }
+/* tombol hitung & reset */
 .tombol-hitung{
     height: 40px;
     width: 90px;
@@ -55,7 +59,15 @@ main{
     border-radius: 25px;
     transition: 1s;
 }
+/* list keunggulan */
 ol{
     padding-left: 15px;
     font-size: 14px;
 }
+
+/* hasil perhitungan*/
+.isi-hasil{
+text-align: center;
+font-size: 30px;
+}
+
