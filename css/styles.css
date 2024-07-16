@@ -4,7 +4,6 @@ body{
 }
 main{
     display: flex;
-
     margin: 10px;
     font-family: sans-serif;
     text-align: justify;
@@ -15,11 +14,19 @@ main{
     flex: 1;
     padding: 12px;
     background-color: #E0FFFF;
+    margin: 10px;
+}
+/* background untuk form isi dan hasil */
+.bg-form {
+    background-color: rgb(232, 228, 228);
+    border-radius: 25px;
 }
 /* judul input */
 .input-title{
     font-size: 14px;
     font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 /* header halaman */
 .title{
@@ -37,6 +44,11 @@ main{
     background-size: 20px;
     background-position: 5px;
     font-size: 15px;
+    outline: none;
+    margin-left: 10px;
+}
+.input-isi:focus{
+    border:1px solid green;
 }
 /* tombol hitung & reset */
 .tombol-hitung{
@@ -46,6 +58,9 @@ main{
     color: white;
     border-radius: 5px;
     font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .tombol-reset{
     height: 40px;
@@ -54,8 +69,11 @@ main{
     color: black;
     border-radius: 5px;
     font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
-.tombol-hitung:hover, .tombol-reset:hover{
+.tombol-hitung:hover, .tombol-reset:hover, .button-hasil:hover{
     border-radius: 25px;
     transition: 1s;
 }
@@ -70,4 +88,22 @@ ol{
 text-align: center;
 font-size: 30px;
 }
+/* state awal button hasil */
+.button-hasil{
+    height: 40px;
+    width: 90px;
+    background-color: #45AAF2;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
+.main-hasil{
+    background-color: gray;
+    width: 100%;
+    height: 50%;
+}
