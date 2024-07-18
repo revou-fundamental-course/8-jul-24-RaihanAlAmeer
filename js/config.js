@@ -80,7 +80,7 @@ function showalert(){
    
 
     // state button hasil setelah jalankan function
-        document.getElementById('download-hasil').style.display = 'block';
+        document.getElementById('download-hasil').style.display = 'inline-block';
         document.getElementById('konsulgizi').style.display = 'inline-block';
         document.getElementById('regisgizi').style.display = 'inline-block';
         document.getElementById('konsulgizi2').style.display = 'inline-block';

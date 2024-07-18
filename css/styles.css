@@ -5,7 +5,6 @@ body{
 main{
     display: flex;
     margin: 10px;
-    font-family: sans-serif;
     text-align: justify;
 }
 .main-content{
@@ -110,4 +109,32 @@ font-size: 30px;
 .bg-store{
     background-size: 20px;
     background-repeat: no-repeat;
+}
+
+/* responsive css */
+@media only screen and (max-width: 600px) {
+    main{
+        display: block !important;
+        margin: 10px;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .button-hasil{
+        height: 40px;
+        width: 100px !important;
+        background-color: #45AAF2;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        display: none;
+        width: 150px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    img{
+        height: 40px;
+        width: 100px; 
+    }
 }
