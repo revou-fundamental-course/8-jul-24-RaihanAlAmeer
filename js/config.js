@@ -26,6 +26,11 @@ function showalert(){
         Event.preventDevault();
     }
 
+    // anchor scroll untuk mobile
+    if(window.innerWidth <=700){
+        const links = document.querySelectorAll('a[href^="#"]');
+
+    }
 
 
     // convert meter ke cm
